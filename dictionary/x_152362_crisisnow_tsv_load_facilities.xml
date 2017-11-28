@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="TSV_Load_Facilities" max_length="40" name="x_152362_crisisnow_tsv_load_facilities" type="collection">
+        <element attributes="import_attribute_name=Address,edge_encryption_enabled=true" label="Address" max_length="40" name="u_address" type="string"/>
+        <element attributes="import_attribute_name=Area_m2,edge_encryption_enabled=true" label="Area_m2" max_length="40" name="u_area_m2" type="string"/>
+        <element attributes="import_attribute_name=Capacity,edge_encryption_enabled=true" label="Capacity" max_length="42" name="u_capacity" type="string"/>
+        <element attributes="import_attribute_name=Contact_Email,edge_encryption_enabled=true" label="Contact_Email" max_length="40" name="u_contact_email" type="string"/>
+        <element attributes="import_attribute_name=Contact_Name,edge_encryption_enabled=true" label="Contact_Name" max_length="40" name="u_contact_name" type="string"/>
+        <element attributes="import_attribute_name=Contact_Phone1,edge_encryption_enabled=true" label="Contact_Phone1" max_length="40" name="u_contact_phone1" type="string"/>
+        <element attributes="import_attribute_name=Contact_Phone2,edge_encryption_enabled=true" label="Contact_Phone2" max_length="40" name="u_contact_phone2" type="string"/>
+        <element attributes="import_attribute_name=Contact_Position,edge_encryption_enabled=true" label="Contact_Position" max_length="40" name="u_contact_position" type="string"/>
+        <element attributes="import_attribute_name=Cooking_Facility,edge_encryption_enabled=true" label="Cooking_Facility" max_length="61" name="u_cooking_facility" type="string"/>
+        <element attributes="import_attribute_name=Emergency,edge_encryption_enabled=true" label="Emergency" max_length="58" name="u_emergency" type="string"/>
+        <element attributes="import_attribute_name=Floor_Level,edge_encryption_enabled=true" label="Floor_Level" max_length="40" name="u_floor_level" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="47" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=OBJECTID,edge_encryption_enabled=true" label="OBJECTID" max_length="40" name="u_objectid" type="string"/>
+        <element attributes="import_attribute_name=Remarks,edge_encryption_enabled=true" label="Remarks" max_length="117" name="u_remarks" type="string"/>
+        <element attributes="import_attribute_name=Showers,edge_encryption_enabled=true" label="Showers" max_length="40" name="u_showers" type="string"/>
+        <element attributes="import_attribute_name=Suburb,edge_encryption_enabled=true" label="Suburb" max_length="40" name="u_suburb" type="string"/>
+        <element attributes="import_attribute_name=Toilets,edge_encryption_enabled=true" label="Toilets" max_length="40" name="u_toilets" type="string"/>
+        <element attributes="import_attribute_name=Type,edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
+        <element attributes="import_attribute_name=X,edge_encryption_enabled=true" label="X" max_length="40" name="u_x" type="string"/>
+        <element attributes="import_attribute_name=Y,edge_encryption_enabled=true" label="Y" max_length="40" name="u_y" type="string"/>
+    </element>
+</database>

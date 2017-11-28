@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_152362_crisisnow_sf_task">
+    <x_152362_crisisnow_sf_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment>CrisisNow Request State flow</comment>
+        <derived_from display_value="Resume ${Request_Label}">21feb353df312100dca6a5f59bf263e5</derived_from>
+        <end_text/>
+        <ending_state/>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script><![CDATA[action.setRedirectURL(current);
+var st = new global.SMTask();
+var parent = st.getParent(current);
+if(parent && !st.isClosed(parent) && st.isParentSuspended(current)) {
+   parent.sla_suspended = false;
+   parent.sla_suspended_on = "";
+   parent.update();
+}]]></manual_script>
+        <manual_string>var st=new global.SMTask(); !st.isClosed(current) &amp;&amp; !current.parent.nil() &amp;&amp; st.isParentSuspended(current) &amp;&amp; !st.isClosed(current.parent)</manual_string>
+        <name>Resume CrisisNow Request</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010012</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text/>
+        <starting_state/>
+        <sys_class_name>x_152362_crisisnow_sf_task</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:15:52</sys_created_on>
+        <sys_id>4fa6b763db8e430054fe5740cf96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resume CrisisNow Request</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>x_152362_crisisnow_sf_task_4fa6b763db8e430054fe5740cf96191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:15:52</sys_updated_on>
+        <table>x_152362_crisisnow_task</table>
+        <translated_ending_state/>
+        <translated_starting_state/>
+        <ui_action display_value="Resume Parent">47a6b763db8e430054fe5740cf961920</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_152362_crisisnow_sf_task>
+</record_update>

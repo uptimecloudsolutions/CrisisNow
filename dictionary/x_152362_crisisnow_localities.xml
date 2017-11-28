@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Localities" max_length="40" name="x_152362_crisisnow_localities" type="collection">
+        <element attributes="import_attribute_name=LOCALITY,edge_encryption_enabled=true" label="LOCALITY" max_length="40" name="u_locality" type="string"/>
+        <element attributes="import_attribute_name=SHIRE_NAME,edge_encryption_enabled=true" label="SHIRE_NAME" max_length="40" name="u_shire_name" type="string"/>
+    </element>
+</database>

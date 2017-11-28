@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="tsv_DCDB" max_length="40" name="x_152362_crisisnow_tsv_dcdb" sizeclass="86198" type="collection">
+        <element attributes="import_attribute_name=address,edge_encryption_enabled=true" label="address" max_length="58" name="u_address" type="string"/>
+        <element attributes="import_attribute_name=Address_PID,edge_encryption_enabled=true" label="Address_PID" max_length="40" name="u_address_pid" type="string"/>
+        <element attributes="import_attribute_name=lat,edge_encryption_enabled=true" label="lat" max_length="40" name="u_lat" type="string"/>
+        <element attributes="import_attribute_name=locality_name,edge_encryption_enabled=true" label="locality_name" max_length="40" name="u_locality_name" type="string"/>
+        <element attributes="import_attribute_name=long,edge_encryption_enabled=true" label="long" max_length="40" name="u_long" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Parent,edge_encryption_enabled=true" label="Parent" max_length="40" name="u_parent" type="string"/>
+        <element attributes="import_attribute_name=prop_name,edge_encryption_enabled=true" label="prop_name" max_length="40" name="u_prop_name" type="string"/>
+        <element attributes="import_attribute_name=State,edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>

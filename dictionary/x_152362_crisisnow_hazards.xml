@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Hazards" max_length="40" name="x_152362_crisisnow_hazards" type="collection">
+        <element choice="1" label="Hazard Type" max_length="40" name="hazard_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Request" max_length="32" name="request" reference="x_152362_crisisnow_request" type="reference"/>
+        <index name="index">
+            <element name="request"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="CrisisNow">58c67b63db8e430054fe5740cf961947</category>
+        <order>1</order>
+        <property display_value="x_152362_crisisnow.default.end.time" name="x_152362_crisisnow.default.end.time">b0b6f763db8e430054fe5740cf961911</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:16:15</sys_created_on>
+        <sys_id>58c67b63db8e430054fe5740cf96194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_152362_crisisnow.default.end.time.CrisisNow</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_58c67b63db8e430054fe5740cf96194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:16:15</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

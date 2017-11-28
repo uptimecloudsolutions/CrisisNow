@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="75c63f63db8e430054fe5740cf96196b" sys_domain="global" table="x_152362_crisisnow_task_template" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdc63f63db8e430054fe5740cf96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_152362_crisisnow_task_template" name="x_152362_crisisnow_task_template" sys_domain="global" view="Default view">75c63f63db8e430054fe5740cf96196b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_152362_crisisnow_task_template" sys_domain="global" view="Default view">f5c63f63db8e430054fe5740cf961968</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_152362_crisisnow_task_template</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75c63f63db8e430054fe5740cf96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_152362_crisisnow_task_template</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+            <sys_update_name>sys_ui_form_sections_75c63f63db8e430054fe5740cf96196b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

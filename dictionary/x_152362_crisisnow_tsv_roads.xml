@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="TSV_Roads" max_length="40" name="x_152362_crisisnow_tsv_roads" type="collection">
+        <element attributes="import_attribute_name=la_name,edge_encryption_enabled=true" label="la_name" max_length="40" name="u_la_name" type="string"/>
+        <element attributes="import_attribute_name=locality_name,edge_encryption_enabled=true" label="locality_name" max_length="40" name="u_locality_name" type="string"/>
+        <element attributes="import_attribute_name=Street,edge_encryption_enabled=true" label="Street" max_length="40" name="u_street" type="string"/>
+    </element>
+</database>

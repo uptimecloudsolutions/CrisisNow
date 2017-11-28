@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_config">
+    <sm_config action="INSERT_OR_UPDATE">
+        <accept_reject>true</accept_reject>
+        <active>true</active>
+        <admin_role display_value="x_152362_crisisnow_admin" name="x_152362_crisisnow_admin">b1a63763db8e430054fe5740cf9619ff</admin_role>
+        <agent_role display_value="x_152362_crisisnow_agent" name="x_152362_crisisnow_agent">caa67763db8e430054fe5740cf961902</agent_role>
+        <app_name>crisisnow</app_name>
+        <approval>false</approval>
+        <approval_workflow display_value="Approval Workflow for SM">da95b573d7322100bbc783e80e610360</approval_workflow>
+        <approver_role display_value="x_152362_crisisnow_approver_user" name="x_152362_crisisnow_approver_user">46a67763db8e430054fe5740cf961905</approver_role>
+        <associated_task_tables/>
+        <auto_dispatch>true</auto_dispatch>
+        <basic_role display_value="x_152362_crisisnow_basic" name="x_152362_crisisnow_basic">cea67763db8e430054fe5740cf961907</basic_role>
+        <catalog display_value="CrisisNow Catalog">edc63f63db8e430054fe5740cf96190c</catalog>
+        <created_with_version>Jakarta: 09-05-2017_1648</created_with_version>
+        <disabled_processes/>
+        <dispatch_group_type display_value="crisisnow_dispatch">b7a6b763db8e430054fe5740cf9619ea</dispatch_group_type>
+        <dispatch_queue>false</dispatch_queue>
+        <dispatcher_role display_value="x_152362_crisisnow_dispatcher" name="x_152362_crisisnow_dispatcher">cea67763db8e430054fe5740cf96190a</dispatcher_role>
+        <follow_the_sun_priority>{value:,type:,display:}</follow_the_sun_priority>
+        <geolocation_maps>true</geolocation_maps>
+        <inbound_email>false</inbound_email>
+        <initiator_role display_value="x_152362_crisisnow_initiator" name="x_152362_crisisnow_initiator">0ea67763db8e430054fe5740cf96190d</initiator_role>
+        <kbase display_value="CrisisNow Knowledge">a5c63f63db8e430054fe5740cf961929</kbase>
+        <knowledge_base>true</knowledge_base>
+        <limit_by_location>true</limit_by_location>
+        <main_model_category display_value="CrisisNow Request Template">d0c67b63db8e430054fe5740cf9619ab</main_model_category>
+        <main_model_table>x_152362_crisisnow_request_template</main_model_table>
+        <main_state_flow_table>x_152362_crisisnow_sf_request</main_state_flow_table>
+        <main_table>x_152362_crisisnow_request</main_table>
+        <managed_docs>true</managed_docs>
+        <mandatory_work_notes>true</mandatory_work_notes>
+        <name>CrisisNow</name>
+        <part_requirement>true</part_requirement>
+        <pdf_order_summary>false</pdf_order_summary>
+        <property_prefix>x_152362_crisisnow</property_prefix>
+        <qualification>false</qualification>
+        <qualification_group_type/>
+        <qualifier_role/>
+        <read_role display_value="x_152362_crisisnow_read" name="x_152362_crisisnow_read">02a67763db8e430054fe5740cf961913</read_role>
+        <request_dispatch_method>auto</request_dispatch_method>
+        <request_dispatch_workflow display_value="Request Assignment Workflow for SM">879cca02d7100200e5eb83e80e6103fc</request_dispatch_workflow>
+        <request_driven>true</request_driven>
+        <rollup_work_notes>true</rollup_work_notes>
+        <service_catalog>true</service_catalog>
+        <signature_capture>false</signature_capture>
+        <surveys/>
+        <sys_class_name>sm_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+        <sys_id>6ec67f63db8e430054fe5740cf961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrisisNow</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sm_config_6ec67f63db8e430054fe5740cf961937</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+        <task_activities>true</task_activities>
+        <task_dispatch_method>auto</task_dispatch_method>
+        <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
+        <task_model_category display_value="CrisisNow Task Template">d8c67b63db8e430054fe5740cf9619ab</task_model_category>
+        <task_model_table>x_152362_crisisnow_task_template</task_model_table>
+        <task_state_flow_table>x_152362_crisisnow_sf_task</task_state_flow_table>
+        <task_table>x_152362_crisisnow_task</task_table>
+        <task_work_group_type/>
+        <templates_to_catalog>true</templates_to_catalog>
+        <track_travel>true</track_travel>
+        <use_consistent_assignment>false</use_consistent_assignment>
+        <use_follow_the_sun>true</use_follow_the_sun>
+        <use_location>true</use_location>
+        <use_schedule>false</use_schedule>
+        <use_sf>true</use_sf>
+        <use_skill>all</use_skill>
+        <use_timezone>true</use_timezone>
+        <user_created>true</user_created>
+        <vendor_group_type display_value="crisisnow_vendor">3ba6b763db8e430054fe5740cf9619ea</vendor_group_type>
+        <work_group_type display_value="crisisnow">afa6b763db8e430054fe5740cf9619e9</work_group_type>
+    </sm_config>
+</record_update>

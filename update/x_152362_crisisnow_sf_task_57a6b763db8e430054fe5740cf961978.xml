@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_152362_crisisnow_sf_task">
+    <x_152362_crisisnow_sf_task action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <automatic_condition/>
+        <automatic_roles/>
+        <automatic_script/>
+        <automatic_string/>
+        <business_rule/>
+        <change_client_script/>
+        <client_script/>
+        <comment>CrisisNow Request State flow</comment>
+        <derived_from display_value="Request More Information">61feb353df312100dca6a5f59bf263e5</derived_from>
+        <end_text>1</end_text>
+        <ending_state display_value="Draft">f5a63763db8e430054fe5740cf9619dd</ending_state>
+        <event/>
+        <event_rule/>
+        <mandatory_fields/>
+        <manual_condition/>
+        <manual_roles/>
+        <manual_script/>
+        <manual_string>var st = new global.SMTask(); !st.isParentSuspended(current) &amp;&amp; st.showRequestMoreInformation(current)</manual_string>
+        <name>Request More Information</name>
+        <not_mandatory/>
+        <not_read_only/>
+        <not_visible/>
+        <number>SF0010019</number>
+        <override/>
+        <read_only_fields/>
+        <roles/>
+        <start_text>10</start_text>
+        <starting_state display_value="Pending Assignment">f9a63763db8e430054fe5740cf9619e0</starting_state>
+        <sys_class_name>x_152362_crisisnow_sf_task</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:15:54</sys_created_on>
+        <sys_id>57a6b763db8e430054fe5740cf961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request More Information</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>x_152362_crisisnow_sf_task_57a6b763db8e430054fe5740cf961978</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:15:54</sys_updated_on>
+        <table>x_152362_crisisnow_task</table>
+        <translated_ending_state>Draft</translated_ending_state>
+        <translated_starting_state>Pending Assignment</translated_starting_state>
+        <ui_action display_value="Request More Information">5fa6b763db8e430054fe5740cf961978</ui_action>
+        <visible_fields/>
+        <work_notes/>
+        <work_notes_rule/>
+    </x_152362_crisisnow_sf_task>
+</record_update>

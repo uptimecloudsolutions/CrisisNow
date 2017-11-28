@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>Shows a google map icon on a location field if the location has a street and city listed.&#13;
+Activate by adding the attribute: ref_contributions=open_google_map to a location reference field&#13;
+https://www.servicenowguru.com/system-ui/ui-actions-system-ui/open-google-map-location-record/&#13;
+</description>
+        <media_type/>
+        <name>open_google_map</name>
+        <scoped_name>x_152362_crisisnow_open_google_map</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-03 05:01:33</sys_created_on>
+        <sys_id>ee481d88dbd2070054fe5740cf961994</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>open_google_map</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_ui_macro_ee481d88dbd2070054fe5740cf961994</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-06 00:04:47</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+   <g:evaluate var="jvar_guid" expression="gs.generateGUID(this);" />
+   <j:set var="jvar_n" value="open_google_map${jvar_guid}:${ref}"/>
+
+   <g2:evaluate var="jvar_show_google_map_display" jelly="true">
+      var id = __ref__.getSysIdValue();
+	   var gkey='AIzaSyDT0N9sE-5uoQVb51N4MNn2hL3DN9lQKGo';
+      if (id == null)
+         "none";
+      else {
+         var loc = new GlideRecord('cmn_location');
+         loc.get(id);
+         if ((!loc.street.nil() $[AND] !loc.city.nil()) || (!loc.latitude.nil() $[AND] !loc.longitude.nil()))
+            "";
+         else
+            "none";
+      }
+   </g2:evaluate>
+
+   <a id="${jvar_n}" 
+   onclick="openGoogleMap('${ref}')"
+   name="${jvar_n}" 
+   style="display:$[jvar_show_google_map_display]"
+   title="${gs.getMessage('Open a Google Map for this location')}">
+       <img border="0" src="https://maps.gstatic.com/favicon2.ico" height="16" width="16"/>   </a>
+
+   <script>
+      needsRefreshLoc = false;
+      function onChange_location_show_google_map(element, original, changed, loading) {
+         var s = '${ref}'.split('.');
+         var referenceField = s[1];
+         if (needsRefreshLoc == false) {
+            needsRefreshLoc = true;
+            return;
+         }
+         if (changed.length == 0) {
+            $('${jvar_n}').hide();
+            return;
+         }
+         var locRec = g_form.getReference(referenceField, locationGoogleMapReturn);
+      }
+      
+      function locationGoogleMapReturn(locRec) {
+         var e = $('${jvar_n}');
+         if ((locRec.street $[AND] locRec.city) || (locRec.latitude $[AND] locRec.longitude))
+            e.show();
+         else
+            e.hide();
+      }
+      
+      //Event.observe(g_form.getControl(${ref}.split('.')[1]), 'change', onChange_cmn_location_show_google_map);
+      var l = new GlideEventHandler('onChange_location_show_google_map', onChange_location_show_google_map, '${ref}');
+      g_event_handlers.push(l);
+
+      //Pop open google maps window of location specified
+      //URL should follow this format...http://maps.google.com/?q=1200 Pennsylvania Ave SE, Washington, District of Columbia, 20003
+
+      function openGoogleMap(reference) {
+         var s = reference.split('.');
+         var referenceField = reference.substring(s[0].length+1);
+         var sysId = g_form.getValue(referenceField);
+         //Retrieve the 'Location' record
+         var gr = new GlideRecord('cmn_location');
+	    var gkey="AIzaSyDT0N9sE-5uoQVb51N4MNn2hL3DN9lQKGo";
+         gr.get(sysId);
+
+         //Create and display the Map URL
+         var mapURL = "http://maps.google.com/?q=";
+         //Try location and city
+         if(gr.street $[AND] gr.city){
+            mapURL = mapURL + gr.street + ',' + gr.city + ',' + gr.state + ',' + gr.zip + ',' + gr.country;
+         }
+         //Else try latitude and longitude
+         else if(gr.latitude $[AND] gr.longitude){
+            mapURL = mapURL + gr.latitude + ',' + gr.longitude;
+         }
+     //Strip '#' symbols to avoid encoding errors
+     mapURL = mapURL.replace(/#/g, "");
+         window.open(mapURL);
+      }
+   </script>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

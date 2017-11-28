@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_serviceorder_product_model" label="CrisisNow Request Template" max_length="40" name="x_152362_crisisnow_request_template" type="collection"/>
+</database>

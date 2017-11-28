@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_152362_crisisnow_basic" name="x_152362_crisisnow_basic">cea67763db8e430054fe5740cf961907</contains>
+        <role display_value="x_152362_crisisnow_dispatcher" name="x_152362_crisisnow_dispatcher">cea67763db8e430054fe5740cf96190a</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:15:49</sys_created_on>
+        <sys_id>86a67763db8e430054fe5740cf96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_152362_crisisnow_basic.x_152362_crisisnow_dispatcher</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_user_role_contains_86a67763db8e430054fe5740cf96193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:15:49</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

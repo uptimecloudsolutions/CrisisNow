@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="cost_cc" label="Cost currency" language="en" table="x_152362_crisisnow_tsv_facilities">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>cost_cc</element>
+            <help/>
+            <hint/>
+            <label>Cost currency</label>
+            <language>en</language>
+            <name>x_152362_crisisnow_tsv_facilities</name>
+            <plural>Cost currencies</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-03 00:10:13</sys_created_on>
+            <sys_id>09c51448db1ac30054fe5740cf96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cost currency</sys_name>
+            <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+            <sys_update_name>sys_documentation_x_152362_crisisnow_tsv_facilities_cost_cc_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-03 00:10:13</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a5c63f63db8e430054fe5740cf961929</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="kb_knowledge_base">
+    <kb_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_description/>
+        <card_color/>
+        <data_policy display_value="Data policy for CrisisNow Knowledge knowledge base">a9c63f63db8e430054fe5740cf961929</data_policy>
+        <description>A default description for CrisisNow Knowledge base</description>
+        <disable_category_editing>false</disable_category_editing>
+        <disable_commenting>false</disable_commenting>
+        <disable_suggesting>false</disable_suggesting>
+        <enable_socialqa>true</enable_socialqa>
+        <icon/>
+        <kb_managers/>
+        <kb_version>3</kb_version>
+        <mandatory_fields/>
+        <order/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <question_annotation/>
+        <retire_workflow display_value="Knowledge - Instant Retire">3d18ef12c30031000096dfdc64d3aeb6</retire_workflow>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:16:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5c63f63db8e430054fe5740cf961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:16:20</sys_updated_on>
+        <table>kb_knowledge</table>
+        <template/>
+        <title>CrisisNow Knowledge</title>
+        <workflow display_value="Knowledge - Instant Publish">fbe441019f112100d8f8700c267fcf1a</workflow>
+    </kb_knowledge_base>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5c63f63db8e430054fe5740cf961929"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:16:28</sys_created_on>
+        <sys_id>2fc6bf63db8e430054fe5740cf961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrisisNow Knowledge</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_metadata_link_2fc6bf63db8e430054fe5740cf961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:16:28</sys_updated_on>
+        <tablename>kb_knowledge_base</tablename>
+    </sys_metadata_link>
+</record_update>

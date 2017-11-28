@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="DELETE" field="HazardType" table="x_152362_crisisnow_hazards" version="3">
+        <sys_choice_set action="DELETE">
+            <element>HazardType</element>
+            <name>x_152362_crisisnow_hazards</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>leons</sys_created_by>
+            <sys_created_on>2017-11-14 00:23:11</sys_created_on>
+            <sys_id>f82245ebdb9a830054fe5740cf9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>HazardType</sys_name>
+            <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+            <sys_update_name>sys_choice_x_152362_crisisnow_hazards_HazardType</sys_update_name>
+            <sys_updated_by>leons</sys_updated_by>
+            <sys_updated_on>2017-11-14 00:23:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2017-11-28 00:14:30">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order>850</order>
+        <read_roles>x_152362_crisisnow_read</read_roles>
+        <roles>x_152362_crisisnow_admin</roles>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aac67f63db8e430054fe5740cf96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrisisNow Overview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_portal_page_aac67f63db8e430054fe5740cf96191d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+        <title>CrisisNow Overview</title>
+        <user/>
+        <view>crisisnow_overview</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="CrisisNow Overview">aac67f63db8e430054fe5740cf96191d</page>
+                <summary>CrisisNow Catalog Usage</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                <sys_id>26c67f63db8e430054fe5740cf961923</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">26c67f63db8e430054fe5740cf961923</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>6ac67f63db8e430054fe5740cf961923</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>CrisisNow Catalog Usage</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">26c67f63db8e430054fe5740cf961923</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>a2c67f63db8e430054fe5740cf961924</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>66c67f63db8e430054fe5740cf961907</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">26c67f63db8e430054fe5740cf961923</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>eec67f63db8e430054fe5740cf961923</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="CrisisNow Overview">aac67f63db8e430054fe5740cf96191d</page>
+                <summary>CrisisNow Requests by Month</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                <sys_id>62c67f63db8e430054fe5740cf961922</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">62c67f63db8e430054fe5740cf961922</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>2ec67f63db8e430054fe5740cf961922</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">62c67f63db8e430054fe5740cf961922</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>a6c67f63db8e430054fe5740cf961922</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>CrisisNow Requests by Month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">62c67f63db8e430054fe5740cf961922</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>eec67f63db8e430054fe5740cf961922</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>6ac67f63db8e430054fe5740cf96190c</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="CrisisNow Overview">aac67f63db8e430054fe5740cf96191d</page>
+                <summary>CrisisNow Group Usage</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                <sys_id>66c67f63db8e430054fe5740cf96191e</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">66c67f63db8e430054fe5740cf96191e</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>2ec67f63db8e430054fe5740cf96191e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>CrisisNow Group Usage</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">66c67f63db8e430054fe5740cf96191e</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>a6c67f63db8e430054fe5740cf96191f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>62c67f63db8e430054fe5740cf961917</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">66c67f63db8e430054fe5740cf96191e</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>e2c67f63db8e430054fe5740cf96191f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="CrisisNow Overview">aac67f63db8e430054fe5740cf96191d</page>
+                <summary>CrisisNow Requests</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                <sys_id>aec67f63db8e430054fe5740cf961920</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">aec67f63db8e430054fe5740cf961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>2ec67f63db8e430054fe5740cf961921</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>eac67f63db8e430054fe5740cf961904</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">aec67f63db8e430054fe5740cf961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>6ac67f63db8e430054fe5740cf961921</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">aec67f63db8e430054fe5740cf961920</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>e2c67f63db8e430054fe5740cf961921</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>CrisisNow Requests</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="CrisisNow Overview">aac67f63db8e430054fe5740cf96191d</page>
+                <summary>CrisisNow Tasks</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                <sys_id>eac67f63db8e430054fe5740cf96191f</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">eac67f63db8e430054fe5740cf96191f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>22c67f63db8e430054fe5740cf961920</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>CrisisNow Tasks</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">eac67f63db8e430054fe5740cf96191f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>6ac67f63db8e430054fe5740cf961920</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>eac67f63db8e430054fe5740cf961919</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 02/11/2017 13:16:24">eac67f63db8e430054fe5740cf96191f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2017-11-02 03:16:24</sys_created_on>
+                        <sys_id>a6c67f63db8e430054fe5740cf961920</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

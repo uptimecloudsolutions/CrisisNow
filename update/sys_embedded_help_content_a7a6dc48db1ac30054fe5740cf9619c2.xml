@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>discovery</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Discovery CMDB Identifiers</h1>  <div class="body conbody">  <p class="p"><span class="ph">The CMDB identifiers provide a single point of entry for      inserting and updating CIs in the CMDB that ensures data integrity.</span>   <span class="ph">These identifiers simplify the way applications such as <span class="ph">Discovery</span>, ServiceWatch, and SCCM          interact with the CMDB. By providing a common interface for updates, the system reduces          the probability of duplicate CIs from the different sources. Both probes and sensors use          identifiers.</span>  </p>  <p class="p"><span class="ph">Identification rules are used to uniquely identify CIs            in the CMDB, as part of the identification and reconciliation process.</span>   <span class="ph">Each table in the CMDB can be associated with a single            identification rule.</span></p>  <div class="p">All new instances use identifiers from the CMDB        Identification and Reconciliation framework. Upgrades from pre-Geneva versions still        preserve the legacy identifiers, but you can switch to the new identifiers using a property:          glide.discovery.use_cmdb_identifiers. If you upgraded from a pre-Geneva        version, you must manually add this property and set it to <span class="ph uicontrol">true</span> to        use the new identifiers. If you upgraded from Geneva or later releases, this property is        available in the System Properties [sys_properties] table. To preserve functionality in        custom legacy identifiers, convert them to the new CMDB identifier rules format before        enabling this property. The system does not reconfigure your custom identifiers to the new        framework automatically.<div class="note note"><span class="notetitle">Note:</span> When Service Mapping is active, the new identifiers from the          CMDB Identification and Reconciliation framework are always used regardless of the          property value.</div></div> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:CMDBIdentifiers&amp;version&#61;jakarta" target="_blank" rel="nofollow">Discovery CMDB identifiers</a></div></div></div></div>]]></content>
+        <last_sync>2017-11-20 23:55:59</last_sync>
+        <modifier>normal</modifier>
+        <name>cmdb_identifier-normal</name>
+        <page>cmdb_identifier</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-11-03 00:14:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a7a6dc48db1ac30054fe5740cf9619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cmdb_identifier-normal</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_embedded_help_content_a7a6dc48db1ac30054fe5740cf9619c2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-11-20 23:55:59</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7a6dc48db1ac30054fe5740cf9619c2"/>
+</record_update>

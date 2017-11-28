@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <before>false</before>
+        <description>Automatically builds state flow start and end states</description>
+        <flush_cache>false</flush_cache>
+        <name>CrisisNow State Flow Builder</name>
+        <run_once>false</run_once>
+        <script><![CDATA[(new global.StateFlow()).rebuildFlows("x_152362_crisisnow_request");
+(new global.StateFlow()).rebuildFlows("x_152362_crisisnow_task");]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-02 03:15:55</sys_created_on>
+        <sys_id>2fa6b763db8e430054fe5740cf9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrisisNow State Flow Builder</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_script_fix_2fa6b763db8e430054fe5740cf9619e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-02 03:15:55</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>

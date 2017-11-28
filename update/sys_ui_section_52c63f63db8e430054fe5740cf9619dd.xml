@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Planned" section_id="52c63f63db8e430054fe5740cf9619dd" sys_domain="global" table="x_152362_crisisnow_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>5ac63f63db8e430054fe5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>window_start</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>dac63f63db8e430054fe5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>window_end</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>5ec63f63db8e430054fe5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>dec63f63db8e430054fe5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_fixed_window</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>52c63f63db8e430054fe5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>d2c63f63db8e430054fe5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>56c63f63db8e430054fe5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expected_travel_start</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>d6c63f63db8e430054fe5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expected_start</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>5ac63f63db8e430054fe5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estimated_end</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>dac63f63db8e430054fe5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>5ec63f63db8e430054fe5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estimated_travel_duration</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>dec63f63db8e430054fe5740cf9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estimated_work_duration</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>52c63f63db8e430054fe5740cf9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_id>d2c63f63db8e430054fe5740cf9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Planned" display_value="Planned" name="x_152362_crisisnow_task" sys_domain="global" view="Default view">52c63f63db8e430054fe5740cf9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Planned</caption>
+            <header>false</header>
+            <name>x_152362_crisisnow_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-02 03:16:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52c63f63db8e430054fe5740cf9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Planned</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+            <sys_update_name>sys_ui_section_52c63f63db8e430054fe5740cf9619dd</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-02 03:16:23</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
