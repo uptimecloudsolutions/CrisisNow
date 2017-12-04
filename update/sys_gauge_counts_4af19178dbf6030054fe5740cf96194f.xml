@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_gauge_counts">
+    <sys_gauge_counts action="INSERT_OR_UPDATE">
+        <gauge_id display_value="Additional Metrics">53d6e3231f3121006d691b220e8b70e0</gauge_id>
+        <image/>
+        <name>CustomActivitiesDeveloped</name>
+        <omit_line>false</omit_line>
+        <order/>
+        <override_style/>
+        <query/>
+        <script>SNC.UsageAnalyticsScriptUtils.getCount('CustomActivitiesDeveloped', 'Number of Orchestration activities developed or modified by a customer');</script>
+        <short_description>Number of Orchestration activities developed or modified by a customer</short_description>
+        <sys_class_name>sys_gauge_counts</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-11-30 09:00:05</sys_created_on>
+        <sys_id>4af19178dbf6030054fe5740cf96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CustomActivitiesDeveloped</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_gauge_counts_4af19178dbf6030054fe5740cf96194f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-11-30 09:00:05</sys_updated_on>
+        <tablename>CustomActivitiesDeveloped</tablename>
+        <use_script>true</use_script>
+    </sys_gauge_counts>
+</record_update>

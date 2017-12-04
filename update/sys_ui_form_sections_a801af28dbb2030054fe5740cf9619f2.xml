@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="a801af28dbb2030054fe5740cf9619f2" sys_domain="global" table="x_152362_crisisnow_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-30 00:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a401af28dbb2030054fe5740cf9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_152362_crisisnow_request" name="x_152362_crisisnow_request" sys_domain="global" view="a801af28dbb2030054fe5740cf9619ee">a801af28dbb2030054fe5740cf9619f2</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_152362_crisisnow_request" sys_domain="global" view="a801af28dbb2030054fe5740cf9619ee">2801af28dbb2030054fe5740cf9619f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-30 00:46:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-30 00:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6001af28dbb2030054fe5740cf9619f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_152362_crisisnow_request" name="x_152362_crisisnow_request" sys_domain="global" view="a801af28dbb2030054fe5740cf9619ee">a801af28dbb2030054fe5740cf9619f2</sys_ui_form>
+            <sys_ui_section caption="Scheduling" display_value="Scheduling" name="x_152362_crisisnow_request" sys_domain="global" view="a801af28dbb2030054fe5740cf9619ee">ec01af28dbb2030054fe5740cf9619f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-30 00:46:33</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_152362_crisisnow_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-30 00:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a801af28dbb2030054fe5740cf9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_152362_crisisnow_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a801af28dbb2030054fe5740cf9619f2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-30 00:46:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Operations" name="Operations">a801af28dbb2030054fe5740cf9619ee</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
