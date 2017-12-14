@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>ending_state</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-12 00:20:47</sys_created_on>
+        <sys_id>483e41a4db43030054fe5740cf9619be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ending_state</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_ui_policy_action_483e41a4db43030054fe5740cf9619be</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-12 00:20:47</sys_updated_on>
+        <table>x_152362_crisisnow_sf_task</table>
+        <ui_policy display_value="Hide start and end state">803e41a4db43030054fe5740cf9619bb</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

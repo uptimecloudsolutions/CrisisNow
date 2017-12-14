@@ -12,20 +12,20 @@
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>QLD_TMR [ Default GET ]</qualified_name>
-        <rest_endpoint>https://api.qldtraffic.qld.gov.au/v1/webcams</rest_endpoint>
+        <rest_endpoint>https://api.qldtraffic.qld.gov.au/v1/events</rest_endpoint>
         <rest_message display_value="QLD_TMR">cfa30a48dbba030054fe5740cf9619cb</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-28 04:46:21</sys_created_on>
         <sys_id>e5b40688dbba030054fe5740cf96198d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Default GET</sys_name>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
         <sys_policy/>
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
         <sys_update_name>sys_rest_message_fn_e5b40688dbba030054fe5740cf96198d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-28 06:24:56</sys_updated_on>
+        <sys_updated_on>2017-12-13 23:06:15</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

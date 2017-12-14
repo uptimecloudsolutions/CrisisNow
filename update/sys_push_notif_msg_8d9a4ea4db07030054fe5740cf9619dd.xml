@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>CrisisNow Request Update</message_string>
+        <name>CrisisNow Request Update</name>
+        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <push_message_content display_value="ConnectMessageContent">dd84793b5331020023c817aaedc5879e</push_message_content>
+        <subject>Crisis Now Update</subject>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-12 04:45:16</sys_created_on>
+        <sys_id>8d9a4ea4db07030054fe5740cf9619dd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CrisisNow Request Update</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_push_notif_msg_8d9a4ea4db07030054fe5740cf9619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-12 04:47:00</sys_updated_on>
+        <table>x_152362_crisisnow_request</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

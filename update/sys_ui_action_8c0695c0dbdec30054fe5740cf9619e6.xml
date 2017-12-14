@@ -30,11 +30,11 @@ function openGoogleMap() {
    //Retrieve the 'Location' record
    var sysId = typeof rowSysId == 'undefined' ? gel('sys_uniqueValue').value : rowSysId;
    var gr = new GlideRecord('cmn_location');
-   var gkey = 'AIzaSyDT0N9sE-5uoQVb51N4MNn2hL3DN9lQKGo';
+   var gkey = gs.getProperty("google.maps.key");
    gr.get('sys_Id');
 
    //Create and display the Map URL
-   var mapURL = "http://maps.google.com/?q=";
+   var mapURL = "https://maps.googleapis.com/maps/api/geocode/json?address=";
    //Try location and city
    if(gr.street && gr.city){
       mapURL = mapURL + gr.street + ',' + gr.city + ',' + gr.state + ',' + gr.zip + ',' + gr.country+'&key='+gkey;
@@ -57,7 +57,7 @@ function openGoogleMap() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8c0695c0dbdec30054fe5740cf9619e6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Open Google Map</sys_name>
         <sys_overrides/>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
@@ -65,7 +65,7 @@ function openGoogleMap() {
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
         <sys_update_name>sys_ui_action_8c0695c0dbdec30054fe5740cf9619e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-05 23:28:21</sys_updated_on>
+        <sys_updated_on>2017-12-12 01:37:22</sys_updated_on>
         <table>cmn_location</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

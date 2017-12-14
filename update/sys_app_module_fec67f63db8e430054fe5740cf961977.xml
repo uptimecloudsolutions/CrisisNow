@@ -19,7 +19,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>open_knowledge.do?sysId=a5c63f63db8e430054fe5740cf961929</query>
         <report/>
-        <roles>x_152362_crisisnow_admin</roles>
+        <roles>x_152362_crisisnow_admin,x_152362_crisisnow.events_user,x_152362_crisisnow.hazards_user,x_152362_crisisnow.operations_user,x_152362_crisisnow.tsv_facilities_user,x_152362_crisisnow_agent,x_152362_crisisnow_approver_user,x_152362_crisisnow_basic,x_152362_crisisnow_dispatcher,x_152362_crisisnow_initiator,x_152362_crisisnow_mid,x_152362_crisisnow_read,x_152362_crisisnow_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fec67f63db8e430054fe5740cf961977</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Knowledge</sys_name>
         <sys_overrides/>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
         <sys_update_name>sys_app_module_fec67f63db8e430054fe5740cf961977</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-02 03:16:25</sys_updated_on>
+        <sys_updated_on>2017-12-12 05:02:14</sys_updated_on>
         <timeline_page/>
         <title>Knowledge</title>
         <uncancelable>false</uncancelable>

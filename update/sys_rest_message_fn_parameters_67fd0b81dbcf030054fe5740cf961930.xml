@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>type</name>
+        <rest_message_function display_value="Default GET">e5b40688dbba030054fe5740cf96198d</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-13 22:56:24</sys_created_on>
+        <sys_id>67fd0b81dbcf030054fe5740cf961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>type</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_67fd0b81dbcf030054fe5740cf961930</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-13 22:56:24</sys_updated_on>
+        <type>string</type>
+        <value>events</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

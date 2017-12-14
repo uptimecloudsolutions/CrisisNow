@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Townsville</center_address>
+        <center_latitude>-19.2589635</center_latitude>
+        <center_longitude>146.8169483</center_longitude>
+        <controls_size>large</controls_size>
+        <initial_zoom>10</initial_zoom>
+        <name>x_152362_crisisnow_Crisis_TMR_Events</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <script><![CDATA[//try { 
+ var r = new sn_ws.RESTMessageV2('x_152362_crisisnow.QLD_TMR', 'Default GET');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+
+
+var parser = new global.JSONParser();
+var parsed = parser.parse(responseBody);
+var feats=[];
+var Geoms=[];
+var Coords=[];
+feats=parsed.features;
+Geoms=feats.geometries;
+Coords=feats.coordinates;
+
+
+
+for(var i in feats){
+
+	//gs.info('LAT: '+feats[i].geometry.geometries[0].coordinates[1]);
+	//gs.info('LONG: '+feats[i].geometry.geometries[0].coordinates[0]);
+	//gs.info('LENGTH: '+feats[i].geometry.geometries[0].coordinates.length);
+	gs.info('COORDS: '+feats[i].geometry.geometries[0].coordinates);
+	gs.info('GEOMETRY: '+feats[i].geometry.geometries[0].type);
+	//gs.info('PROPERTIES: '+feats[i].properties.advice);
+	//gs.info('URL: '+feats[i].properties.url);
+  //var points=[];
+//	Type=feats[i].geometry.geometries[0].type;
+	//points=Type.filter("points");
+//	var lat=points[1];
+//	var longit=points[0];
+//var geomType=feats[i].geometry.geometries[0].type;
+//	var Points = feats.filter(function(type) {
+//  return type == "Point";
+//});
+//	gs.info('POINTS: '+Points);
+//gs.info('LAT: '+lat);
+//gs.info('LONG: '+longit);
+	
+//map.data.addGeoJson(feats[i]);	
+	//var item = map.addItem(feats[i]);
+	var item = map.addItem(feats[i].geometry.geometries[0].coordinates);
+   item.latitude = feats[i].geometry.geometries[0].coordinates[1];
+  item.longitude = feats[i].geometry.geometries[0].coordinates[0];
+	//item.latitude = lat;
+  //item.longitude=longit;
+   item.dialog_title = feats[i].properties.advice;
+   item.icon_width = "16";
+   item.icon_height = "16";
+			//gs.info('FEAT: '+parsed1);
+}
+]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>Crisis_TMR_Events</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-12 05:14:30</sys_created_on>
+        <sys_id>2f4112a8db07030054fe5740cf96191f</sys_id>
+        <sys_mod_count>298</sys_mod_count>
+        <sys_name>x_152362_crisisnow_Crisis_TMR_Events</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>cmn_map_page_2f4112a8db07030054fe5740cf96191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-14 04:37:59</sys_updated_on>
+        <type>normal</type>
+        <type_selection>buttons</type_selection>
+    </cmn_map_page>
+</record_update>

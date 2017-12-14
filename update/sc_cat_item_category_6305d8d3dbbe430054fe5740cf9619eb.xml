@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Access Blocked by green debris">67059493dbbe430054fe5740cf961981</sc_cat_item>
+        <sc_category display_value="Default Category">69c63f63db8e430054fe5740cf961912</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-07 22:58:45</sys_created_on>
+        <sys_id>6305d8d3dbbe430054fe5740cf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Default Category.Access Blocked by green debris</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sc_cat_item_category_6305d8d3dbbe430054fe5740cf9619eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-07 22:58:45</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

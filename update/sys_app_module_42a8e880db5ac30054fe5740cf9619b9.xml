@@ -17,7 +17,7 @@
         <name/>
         <order>805</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>flexible_mapper_home.do?sysparm_sys_id=6be6cadadbf2030054fe5740cf961944&amp;sysparm_userlocation=true</query>
         <report/>
         <roles/>
         <survey/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42a8e880db5ac30054fe5740cf9619b9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Map All Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
         <sys_update_name>sys_app_module_42a8e880db5ac30054fe5740cf9619b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-06 05:21:48</sys_updated_on>
+        <sys_updated_on>2017-12-06 22:33:49</sys_updated_on>
         <timeline_page/>
         <title>Map All Requests</title>
         <uncancelable>false</uncancelable>

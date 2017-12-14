@@ -6,10 +6,11 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_152362_crisisnow_task">active=true^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^assigned_toISEMPTY^ORassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter table="x_152362_crisisnow_task">active=true^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^assigned_toISEMPTY^ORassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="DYNAMIC" or="false" value="d6435e965f510100a9ad2572f2b47744"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
         <homepage/>
@@ -23,7 +24,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_152362_crisisnow_user,x_152362_crisisnow_read,x_152362_crisisnow_mid,x_152362_crisisnow_initiator,x_152362_crisisnow_dispatcher,x_152362_crisisnow_basic,x_152362_crisisnow_approver_user,x_152362_crisisnow_agent,x_152362_crisisnow_admin,x_152362_crisisnow.tsv_facilities_user,x_152362_crisisnow.operations_user,x_152362_crisisnow.hazards_user,x_152362_crisisnow.events_user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -32,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fac67f63db8e430054fe5740cf96196e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Assigned to me</sys_name>
         <sys_overrides/>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
@@ -40,7 +41,7 @@
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
         <sys_update_name>sys_app_module_fac67f63db8e430054fe5740cf96196e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-02 03:16:25</sys_updated_on>
+        <sys_updated_on>2017-12-12 04:37:10</sys_updated_on>
         <timeline_page/>
         <title>Assigned to me</title>
         <uncancelable>false</uncancelable>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Townsville</center_address>
+        <center_latitude>-19.2589635</center_latitude>
+        <center_longitude>146.8169483</center_longitude>
+        <controls_size>large</controls_size>
+        <initial_zoom>10</initial_zoom>
+        <name>x_152362_crisisnow_Crisis_geo_location_h</name>
+        <overview>false</overview>
+        <refresh_on_zoom>true</refresh_on_zoom>
+        <script><![CDATA[//get the instances url so we can link back to it
+var uri = gs.getProperty("glide.servlet.uri");
+//create an aggregate query on the Crisis_Request table
+var count = new GlideAggregate('geo_history');
+//set condition for active incidents
+//count.addQuery('active', 'true');
+//set aggregate field to location to get count by location
+count.addAggregate('COUNT', 'location');
+//execute the query
+count.query();
+ 
+//loop through the results
+while (count.next()) {
+ 
+ //get the current record's location
+ var loc = count.location;
+ //get the count of incidents for this location
+ var locCount = count.getAggregate('COUNT', 'location');
+ //only display location is there are active incidents
+ if (locCount > 0) {
+ //create new new map item for this location
+ var item = map.addItem(count);
+ //set lat/long from the location record
+ item.latitude = loc.latitude;
+ item.longitude = loc.longitude;
+ //build the link to the list of incidents for the location
+ var link = 'href=' + uri + 'geo_history_list.do?sysparm_query=active%3Dtrue^location%3D' + loc;
+ //build the html value to be displayed when you click the map icon
+ item.html='<a ' + link + '>' + loc.getDisplayValue() + ' (' + locCount + ')</a>';
+ //link to the icon image
+ item.icon = "http://maps.google.com/mapfiles/kml/pal3/icon51.png";
+ //set the size of the icon based on the number of active incidents
+ if (locCount < 5) {
+ item.icon_width = "24";
+ item.icon_height = "24";
+ }
+ else if (locCount < 15) {
+ item.icon_width = "32";
+ item.icon_height = "32";
+ }
+ else {
+ item.icon_width = "48";
+ item.icon_height = "48";
+ }
+ }
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>Crisis_geo_location_hist_all</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-12 04:02:51</sys_created_on>
+        <sys_id>47d0c2acdbc3030054fe5740cf961966</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_152362_crisisnow_Crisis_geo_location_h</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>cmn_map_page_47d0c2acdbc3030054fe5740cf961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-12 04:04:13</sys_updated_on>
+        <type>satellite</type>
+        <type_selection>buttons</type_selection>
+    </cmn_map_page>
+</record_update>

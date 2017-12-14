@@ -10,12 +10,12 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>SEPARATOR</link_type>
-        <map_page/>
-        <mobile_title>Maps</mobile_title>
+        <link_type>MAP</link_type>
+        <map_page display_value="x_152362_crisisnow_Crisis_geo_location_h">47d0c2acdbc3030054fe5740cf961966</map_page>
+        <mobile_title>Staff Locations</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>800</order>
+        <order>802</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -23,22 +23,22 @@
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
-        <sys_created_by>system</sys_created_by>
-        <sys_created_on>2017-11-06 04:55:15</sys_created_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-12 04:14:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>adc370cddb52430054fe5740cf961983</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Maps</sys_name>
+        <sys_id>9d634e20db07030054fe5740cf96199d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Staff Locations</sys_name>
         <sys_overrides/>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
         <sys_policy/>
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
-        <sys_update_name>sys_app_module_adc370cddb52430054fe5740cf961983</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-11-06 04:55:15</sys_updated_on>
+        <sys_update_name>sys_app_module_9d634e20db07030054fe5740cf96199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-12 04:15:38</sys_updated_on>
         <timeline_page/>
-        <title>Maps</title>
+        <title>Staff Locations</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>37051cd3dbbe430054fe5740cf961906</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sm_m2m_somodel_stmodel">
+    <sm_m2m_somodel_stmodel action="INSERT_OR_UPDATE">
+        <order>0</order>
+        <so_model display_value="Access Blocked by green debris">e3059493dbbe430054fe5740cf961980</so_model>
+        <st_model display_value="Clear debirs">662bff00662b8580662b9970662b42c0</st_model>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-07 22:58:46</sys_created_on>
+        <sys_id>37051cd3dbbe430054fe5740cf961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-07 22:58:46</sys_updated_on>
+    </sm_m2m_somodel_stmodel>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-07 22:58:46</sys_created_on>
+        <sys_id>7b051cd3dbbe430054fe5740cf961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 08/12/2017 08:58:46</sys_name>
+        <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
+        <sys_update_name>sys_metadata_link_7b051cd3dbbe430054fe5740cf961908</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-07 22:58:46</sys_updated_on>
+        <tablename>sm_m2m_somodel_stmodel</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -9,11 +9,11 @@
         <approval>false</approval>
         <approval_workflow display_value="Approval Workflow for SM">da95b573d7322100bbc783e80e610360</approval_workflow>
         <approver_role display_value="x_152362_crisisnow_approver_user" name="x_152362_crisisnow_approver_user">46a67763db8e430054fe5740cf961905</approver_role>
-        <associated_task_tables/>
+        <associated_task_tables>x_152362_crisisnow_task</associated_task_tables>
         <auto_dispatch>true</auto_dispatch>
         <basic_role display_value="x_152362_crisisnow_basic" name="x_152362_crisisnow_basic">cea67763db8e430054fe5740cf961907</basic_role>
         <catalog display_value="CrisisNow Catalog">edc63f63db8e430054fe5740cf96190c</catalog>
-        <created_with_version>Jakarta: 09-05-2017_1648</created_with_version>
+        <created_with_version>Kingston: 11-11-2017_1422</created_with_version>
         <disabled_processes/>
         <dispatch_group_type display_value="crisisnow_dispatch">b7a6b763db8e430054fe5740cf9619ea</dispatch_group_type>
         <dispatch_queue>false</dispatch_queue>
@@ -50,14 +50,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-02 03:16:24</sys_created_on>
         <sys_id>6ec67f63db8e430054fe5740cf961937</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>CrisisNow</sys_name>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
         <sys_policy/>
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
         <sys_update_name>sm_config_6ec67f63db8e430054fe5740cf961937</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-02 03:16:24</sys_updated_on>
+        <sys_updated_on>2017-12-12 00:21:41</sys_updated_on>
         <task_activities>true</task_activities>
         <task_dispatch_method>auto</task_dispatch_method>
         <task_dispatch_workflow display_value="Assignment Workflow for SM">e1865971d7132100bbc783e80e610365</task_dispatch_workflow>
@@ -69,7 +69,7 @@
         <templates_to_catalog>true</templates_to_catalog>
         <track_travel>true</track_travel>
         <use_consistent_assignment>false</use_consistent_assignment>
-        <use_follow_the_sun>true</use_follow_the_sun>
+        <use_follow_the_sun>false</use_follow_the_sun>
         <use_location>true</use_location>
         <use_schedule>false</use_schedule>
         <use_sf>true</use_sf>
