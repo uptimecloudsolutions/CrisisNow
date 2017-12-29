@@ -34,19 +34,39 @@ var parsed = parser.parse(responseBody);
 var feats=[];
 var Geoms=[];
 var Coords=[];
+var geom=[];
+var points=[];
+var map;
 feats=parsed.features;
-Geoms=feats.geometries;
-Coords=feats.coordinates;
+//Geoms=feats.geometry.geometries;
+geom=feats.geometry;
+//Coords=feats.geometry.geometries.coordinates;
+//var Points=	geoms.filter(function (geom){
+//	return geom.type=='Point';
+//});
+points=geom.filter(function(el){
+	return el=='Points';
+	
+});
 
+gs.info('FEATS: '+feats);
+gs.info('POINTS: '+points);
 
 
 for(var i in feats){
+
+	
 
 	//gs.info('LAT: '+feats[i].geometry.geometries[0].coordinates[1]);
 	//gs.info('LONG: '+feats[i].geometry.geometries[0].coordinates[0]);
 	//gs.info('LENGTH: '+feats[i].geometry.geometries[0].coordinates.length);
 	gs.info('COORDS: '+feats[i].geometry.geometries[0].coordinates);
-	gs.info('GEOMETRY: '+feats[i].geometry.geometries[0].type);
+	gs.info('TYPE: '+feats[i].geometry.geometries[0].type);
+	//gs.info('COORD: '+Coords);
+	gs.info('GEOM: '+Geom);
+	//gs.info('Point: '+Points);
+	//gs.info('GEOM: '+geom);
+	
 	//gs.info('PROPERTIES: '+feats[i].properties.advice);
 	//gs.info('URL: '+feats[i].properties.url);
   //var points=[];
@@ -64,15 +84,17 @@ for(var i in feats){
 	
 //map.data.addGeoJson(feats[i]);	
 	//var item = map.addItem(feats[i]);
-	var item = map.addItem(feats[i].geometry.geometries[0].coordinates);
-   item.latitude = feats[i].geometry.geometries[0].coordinates[1];
-  item.longitude = feats[i].geometry.geometries[0].coordinates[0];
+
+	
+	var item = map.addItem(feats[i].geometry.coordinates);
+   item.latitude = feats[i].geometry.coordinates[1];
+  item.longitude = feats[i].geometry.coordinates[0];
 	//item.latitude = lat;
   //item.longitude=longit;
    item.dialog_title = feats[i].properties.advice;
    item.icon_width = "16";
    item.icon_height = "16";
-			//gs.info('FEAT: '+parsed1);
+			//gs.info('FEAT: '+parsed1);*/
 }
 ]]></script>
         <show_device_location>true</show_device_location>
@@ -81,14 +103,14 @@ for(var i in feats){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-12 05:14:30</sys_created_on>
         <sys_id>2f4112a8db07030054fe5740cf96191f</sys_id>
-        <sys_mod_count>298</sys_mod_count>
+        <sys_mod_count>328</sys_mod_count>
         <sys_name>x_152362_crisisnow_Crisis_TMR_Events</sys_name>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
         <sys_policy/>
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
         <sys_update_name>cmn_map_page_2f4112a8db07030054fe5740cf96191f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-14 04:37:59</sys_updated_on>
+        <sys_updated_on>2017-12-15 03:32:31</sys_updated_on>
         <type>normal</type>
         <type_selection>buttons</type_selection>
     </cmn_map_page>
