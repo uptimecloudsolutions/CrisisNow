@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="sm_order" label="Crisisnow Request" max_length="40" name="x_152362_crisisnow_request" sizeclass="5" type="collection">
+    <element audit="true" extends="sm_order" label="Crisisnow Request" max_length="40" name="x_152362_crisisnow_request" sizeclass="6" type="collection">
         <element display="true" label="Event" max_length="32" name="event" reference="em_event" reference_qual="state=Ready^EQ" reference_qual_condition="state=Ready^EQ" type="reference"/>
     </element>
 </database>

@@ -5,7 +5,7 @@
         <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
         <description/>
         <device_type>browser</device_type>
-        <hint/>
+        <hint>Crisis Management</hint>
         <name/>
         <order/>
         <roles>x_152362_crisisnow_read,x_152362_crisisnow_admin,x_152362_crisisnow_agent,x_152362_crisisnow_approver_user,x_152362_crisisnow_basic,x_152362_crisisnow.events_user,x_152362_crisisnow_user,x_152362_crisisnow_mid,x_152362_crisisnow_initiator,x_152362_crisisnow_dispatcher,x_152362_crisisnow.tsv_facilities_user,x_152362_crisisnow.operations_user,x_152362_crisisnow.hazards_user</roles>
@@ -15,7 +15,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f6c67f63db8e430054fe5740cf96194c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>CrisisNow</sys_name>
         <sys_overrides/>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
@@ -23,7 +23,7 @@
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
         <sys_update_name>sys_app_application_f6c67f63db8e430054fe5740cf96194c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-12 04:34:41</sys_updated_on>
+        <sys_updated_on>2017-12-29 02:46:01</sys_updated_on>
         <title>CrisisNow</title>
         <view_name/>
     </sys_app_application>

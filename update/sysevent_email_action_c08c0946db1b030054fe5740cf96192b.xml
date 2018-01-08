@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
-        <action_insert>true</action_insert>
-        <action_update>true</action_update>
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Incident Alert" name="Incident Alert">b69d02137f232200ee2e108c3ffa913f</category>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_152362_crisisnow_request</collection>
-        <condition/>
+        <condition table="x_152362_crisisnow_request">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <content_type>text/html</content_type>
         <default_interval/>
         <description/>
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
-        <digest_separator_html><![CDATA[<p>&nbsp;</p>
-<hr />
-<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
         <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
         <digest_subject/>
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name>approval.cancelled</event_name>
+        <event_name/>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -39,7 +39,7 @@
         <message_html/>
         <message_list>8d9a4ea4db07030054fe5740cf9619dd</message_list>
         <message_text/>
-        <name>Crisis_Request_Alert</name>
+        <name>CrisisNow</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>true</push_message_only>
@@ -54,21 +54,21 @@
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-12-12 04:45:20</sys_created_on>
+        <sys_created_on>2017-12-29 02:21:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>c81ac6a4db07030054fe5740cf96198f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Crisis_Request_Alert</sys_name>
+        <sys_id>c08c0946db1b030054fe5740cf96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrisisNow</sys_name>
         <sys_overrides/>
         <sys_package display_value="CrisisNow" source="x_152362_crisisnow">5da6f7afdb4e430054fe5740cf961902</sys_package>
         <sys_policy/>
         <sys_scope display_value="CrisisNow">5da6f7afdb4e430054fe5740cf961902</sys_scope>
-        <sys_update_name>sysevent_email_action_c81ac6a4db07030054fe5740cf96198f</sys_update_name>
+        <sys_update_name>sysevent_email_action_c08c0946db1b030054fe5740cf96192b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-29 02:25:28</sys_updated_on>
+        <sys_updated_on>2017-12-29 02:21:43</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="CrisisRequest">884dc586db1b030054fe5740cf9619d4</template>
+        <template/>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

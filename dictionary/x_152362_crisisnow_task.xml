@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="sm_task" label="Crisisnow Task" max_length="40" name="x_152362_crisisnow_task" sizeclass="1" type="collection"/>
+    <element audit="true" extends="sm_task" label="Crisisnow Task" max_length="40" name="x_152362_crisisnow_task" sizeclass="2" type="collection"/>
 </database>
